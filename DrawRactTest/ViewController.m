@@ -53,10 +53,10 @@
     
 }
 - (void)setThisView{
-    //    UIView *view = [MyView shareView];
-    //    view.frame = self.view.bounds;
-    //    [self.view addSubview:view];
-    //    self.view.backgroundColor x= [UIColor whiteColor];
+        UIView *view = [MyView shareView];
+        view.frame = self.view.bounds;
+        [self.view addSubview:view];
+        self.view.backgroundColor = [UIColor whiteColor];
 
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
