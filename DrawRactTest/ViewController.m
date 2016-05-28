@@ -20,10 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    UIView *view = [MyView shareView];
-//    view.frame = self.view.bounds;
-//    [self.view addSubview:view];
-//    self.view.backgroundColor x= [UIColor whiteColor];
+    [self setThisView];
+    
     [self.view addSubview:[[MyView alloc] initWithFrame:self.view.bounds]];
     
     /**
@@ -54,7 +52,13 @@
     NSLog(@"%@",[[NSString alloc] initWithData:decryptedData encoding:NSUTF8StringEncoding]);
     
 }
+- (void)setThisView{
+    //    UIView *view = [MyView shareView];
+    //    view.frame = self.view.bounds;
+    //    [self.view addSubview:view];
+    //    self.view.backgroundColor x= [UIColor whiteColor];
 
+}
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
 
 //    MyView *myView = [[MyView alloc]init];
