@@ -61,11 +61,11 @@
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
 
-//    MyView *myView = [[MyView alloc]init];
-//    myView.width = 10;
-//    UIView *view = [MyView shareView];
-//    
-//    [view setNeedsDisplay];
+    MyView *myView = [[MyView alloc]init];
+    myView.width = 10;
+    UIView *view = [MyView shareView];
+    
+    [view setNeedsDisplay];
     
     CGContextRef context = UIGraphicsGetCurrentContext();
     
