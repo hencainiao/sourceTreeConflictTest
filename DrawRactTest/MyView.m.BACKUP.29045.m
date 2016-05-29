@@ -91,12 +91,17 @@ static UIView *view = nil;
     //    CGContextRestoreGState(context);
     
     //
+<<<<<<< HEAD
 
+}
+- (void)testBrantch7{
+=======
 
 }
 
 - (void)test{
 
+>>>>>>> master
     //    //获得处理的上下文
     //    NSLog(@"--------------------");
     //    CGContextRef context = UIGraphicsGetCurrentContext();
