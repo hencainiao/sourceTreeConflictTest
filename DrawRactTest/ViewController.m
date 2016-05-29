@@ -20,10 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    UIView *view = [MyView shareView];
-//    view.frame = self.view.bounds;
-//    [self.view addSubview:view];
-//    self.view.backgroundColor x= [UIColor whiteColor];
+    [self setThisView];
+    
     [self.view addSubview:[[MyView alloc] initWithFrame:self.view.bounds]];
     
     /**
@@ -54,14 +52,20 @@
     NSLog(@"%@",[[NSString alloc] initWithData:decryptedData encoding:NSUTF8StringEncoding]);
     
 }
+- (void)setThisView{
+        UIView *view = [MyView shareView];
+        view.frame = self.view.bounds;
+        [self.view addSubview:view];
+        self.view.backgroundColor = [UIColor whiteColor];
 
+}
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
 
-//    MyView *myView = [[MyView alloc]init];
-//    myView.width = 10;
-//    UIView *view = [MyView shareView];
-//    
-//    [view setNeedsDisplay];
+    MyView *myView = [[MyView alloc]init];
+    myView.width = 10;
+    UIView *view = [MyView shareView];
+    
+    [view setNeedsDisplay];
     
     CGContextRef context = UIGraphicsGetCurrentContext();
     
@@ -70,12 +74,9 @@
     CGContextSetLineWidth(context, 1.0);
     CGContextSetRGBFillColor (context, 0.5, 0.5, 0.5, 0.5);
     UIFont  *font = [UIFont boldSystemFontOfSize:18.0];
+
     [@"公司：杭州去吧科技有限公司\n部门：技术部\n姓名：McLiang" drawInRect:CGRectMake(20, 40, 280, 300) withAttributes:@{NSFontAttributeName:font}];
     CGContextStrokePath(context);
-}
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];;
-    // Dispose of any resources that can be recreated.
 }
 
 @end
