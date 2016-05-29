@@ -78,9 +78,5 @@
     [@"公司：杭州去吧科技有限公司\n部门：技术部\n姓名：McLiang" drawInRect:CGRectMake(20, 40, 280, 300) withAttributes:@{NSFontAttributeName:font}];
     CGContextStrokePath(context);
 }
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];;
-    // Dispose of any resources that can be recreated.
-}
 
 @end
