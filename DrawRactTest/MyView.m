@@ -88,38 +88,40 @@ static UIView *view = nil;
 //    CGContextRestoreGState(context);
     
     //
-//    //获得处理的上下文
-//    NSLog(@"--------------------");
-//    CGContextRef context = UIGraphicsGetCurrentContext();
-//    
-//    //设置线条样式
-//    CGContextSetLineCap(context, kCGLineCapSquare);
-//    
-//    //设置线条的宽度
-//    CGContextSetLineWidth(context, self.width);
-//    
-//    //设置颜色
-//    CGContextSetRGBStrokeColor(context, 1, 1, 0, 1);
-//    
-//    // 设置开始路径
-//    CGContextBeginPath(context);
-//    
-//    //设置起点（上下文对应的坐标）
-//    CGContextMoveToPoint(context, 0, 0);
-//    
-//    //设置下一点坐标
-//    CGContextAddLineToPoint(context, 100, 100);
-//    
-//     CGContextAddLineToPoint(context, 100, 200);
-//    
-//     CGContextAddLineToPoint(context, 0, 100);
-//    
-//    CGContextStrokePath(context);
-//     CGContextSetLineWidth(context, 2);
-//    UIFont *font = [UIFont systemFontOfSize:18];
-//    
 
 }
 
+- (void)test{
+    //    //获得处理的上下文
+    //    NSLog(@"--------------------");
+    //    CGContextRef context = UIGraphicsGetCurrentContext();
+    //
+    //    //设置线条样式
+    //    CGContextSetLineCap(context, kCGLineCapSquare);
+    //
+    //    //设置线条的宽度
+    //    CGContextSetLineWidth(context, self.width);
+    //
+    //    //设置颜色
+    //    CGContextSetRGBStrokeColor(context, 1, 1, 0, 1);
+    //
+    //    // 设置开始路径
+    //    CGContextBeginPath(context);
+    //
+    //    //设置起点（上下文对应的坐标）
+    //    CGContextMoveToPoint(context, 0, 0);
+    //
+    //    //设置下一点坐标
+    //    CGContextAddLineToPoint(context, 100, 100);
+    //
+    //     CGContextAddLineToPoint(context, 100, 200);
+    //
+    //     CGContextAddLineToPoint(context, 0, 100);
+    //
+    //    CGContextStrokePath(context);
+    //     CGContextSetLineWidth(context, 2);
+    //    UIFont *font = [UIFont systemFontOfSize:18];
+    //    
 
+}
 @end
