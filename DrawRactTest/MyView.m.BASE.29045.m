@@ -70,33 +70,27 @@ static UIView *view = nil;
      CGContextRestoreGState(context);//对应前面的
     
     
-
-}
-- (void)testBrantch6{
-    //    NSString *path = [[NSBundle mainBundle] pathForResource:@"dog" ofType:@"png"];
-    //    UIImage *img = [UIImage imageWithContentsOfFile:path];
-    //    CGImageRef image = img.CGImage;
+//    NSString *path = [[NSBundle mainBundle] pathForResource:@"dog" ofType:@"png"];
+//    UIImage *img = [UIImage imageWithContentsOfFile:path];
+//    CGImageRef image = img.CGImage;
     
-    //    CGContextSaveGState(context);
-    //
-    //    CGAffineTransform myAffine = CGAffineTransformMakeRotation(M_PI);
-    //    myAffine = CGAffineTransformTranslate(myAffine, -img.size.width, -img.size.height);
-    //    CGContextConcatCTM(context, myAffine);
-    //
-    ////    CGContextRotateCTM(context, M_PI);
-    //    CGContextTranslateCTM(context, -img.size.width, -img.size.height);
-    //
-    //    CGRect touchRect2 = CGRectMake(0, 0, img.size.width*0.1, 0.1*img.size.height);
-    //    CGContextDrawImage(context, touchRect2, image2);
-    //    CGContextRestoreGState(context);
+//    CGContextSaveGState(context);
+//    
+//    CGAffineTransform myAffine = CGAffineTransformMakeRotation(M_PI);
+//    myAffine = CGAffineTransformTranslate(myAffine, -img.size.width, -img.size.height);
+//    CGContextConcatCTM(context, myAffine);
+//    
+////    CGContextRotateCTM(context, M_PI);
+//    CGContextTranslateCTM(context, -img.size.width, -img.size.height);
+//    
+//    CGRect touchRect2 = CGRectMake(0, 0, img.size.width*0.1, 0.1*img.size.height);
+//    CGContextDrawImage(context, touchRect2, image2);
+//    CGContextRestoreGState(context);
     
     //
-
-
 }
 
-- (void)test{
-
+- (void)testBrantch7{
     //    //获得处理的上下文
     //    NSLog(@"--------------------");
     //    CGContextRef context = UIGraphicsGetCurrentContext();
@@ -127,5 +121,8 @@ static UIView *view = nil;
     //     CGContextSetLineWidth(context, 2);
     //    UIFont *font = [UIFont systemFontOfSize:18];
     //    
+    
+
 }
+
 @end

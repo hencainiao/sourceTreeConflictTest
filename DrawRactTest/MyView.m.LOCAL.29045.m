@@ -92,11 +92,8 @@ static UIView *view = nil;
     
     //
 
-
 }
-
-- (void)test{
-
+- (void)testBrantch7{
     //    //获得处理的上下文
     //    NSLog(@"--------------------");
     //    CGContextRef context = UIGraphicsGetCurrentContext();
@@ -127,5 +124,8 @@ static UIView *view = nil;
     //     CGContextSetLineWidth(context, 2);
     //    UIFont *font = [UIFont systemFontOfSize:18];
     //    
+    
+
 }
+
 @end
